@@ -1,0 +1,444 @@
+/* sm devices */
+@media screen and (min-width: 640px) {
+  .sm-50 {
+    width: 50%;
+  }
+  .about-section .container {
+    width: 65%;
+  }
+  .services .item {
+    width: 70%;
+    margin: auto;
+  }
+
+  .portfolio .items {
+    width: 60%;
+  }
+
+  .testimonial .card {
+    width: 65%;
+  }
+
+  .blog .items {
+    width: 65%;
+  }
+
+  .contact .input {
+    width: 70%;
+  }
+
+  .footer .icons {
+    width: 25%;
+  }
+
+  .footer .content-footer {
+    width: 60%;
+  }
+}
+
+/* md devices */
+@media screen and (min-width: 768px) {
+  .md-90 {
+    width: 90%;
+  }
+
+  /* home section */
+  .logo {
+    float: left;
+  }
+
+  .navbar-list {
+    /* width: 75%; */
+    float: right;
+  }
+
+  .navbar-list li {
+    float: left;
+    padding: 20px 0px;
+    margin-left: 15px;
+  }
+
+  .hero-content h1 {
+    font-size: 70px;
+  }
+
+  .hero-content p {
+    font-size: 24px;
+  }
+  /* end of home section */
+
+  /* about section */
+  .about-section .container {
+    width: 90%;
+  }
+
+  .picture {
+    float: left;
+  }
+
+  .content {
+    float: left;
+    width: 43%;
+    margin-left: 10px;
+    /* padding-left: 70px; */
+    padding-left: 10px;
+  }
+
+  .content .text h2 {
+    margin: 0;
+  }
+
+  .content .points ul {
+    float: left;
+    width: 45%;
+  }
+
+  .content .points li {
+    margin-bottom: 10px;
+    color: RGB(85, 85, 85);
+    font-family: Roboto sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .content .button a {
+    padding: 15px 15px;
+  }
+  /* end of about section */
+  /* services section */
+
+  .services .container {
+    /* width: 75%; */
+    width: 95%;
+    margin: auto;
+  }
+
+  .services .item {
+    width: 50%;
+    float: left;
+    margin: auto;
+  }
+  /* end of services section */
+  /* portfolio section */
+  .portfolio .items {
+    width: 95%;
+  }
+  .portfolio .item {
+    width: 45%;
+    float: left;
+    /* margin: 15px; */
+    margin: 15px 15px;
+    position: relative;
+  }
+  /* end of portfolio section */
+
+  /* stats section */
+  .stats .container {
+    width: 95%;
+  }
+
+  .stats .item {
+    float: left;
+    width: 25%;
+    /* margin-left: 15px;
+    margin-right: 30px; */
+  }
+  /* end of stats section */
+
+  /* feedback section */
+  .testimonial .header h2 {
+    font-size: 40px;
+  }
+
+  .testimonial .card {
+    width: 95%;
+  }
+  .testimonial .card-content {
+    padding-left: 130px;
+  }
+
+  .testimonial .card img {
+    border-radius: 50%;
+    width: 110px;
+    position: absolute;
+    left: 4%;
+  }
+
+  /* end of feedback section */
+
+  /* blog section */
+  .blog .items {
+    width: 95%;
+  }
+
+  .blog .item {
+    width: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .blog .item iframe {
+    height: 125px;
+  }
+
+  /* end of blog section */
+
+  /* contact us section */
+  .contact .input {
+    width: 95%;
+  }
+
+  .contact-input {
+    width: 45%;
+  }
+
+  .contact .header h2 {
+    font-size: 40px;
+  }
+
+  /* end of contact us section */
+
+  .footer .icons {
+    width: 22%;
+  }
+
+  .footer .content-footer {
+    width: 55%;
+  }
+}
+
+/* lg devices */
+@media screen and (min-width: 1024px) {
+  .lg-75 {
+    width: 75%;
+  }
+
+  /* about section */
+  .about-section {
+    padding-top: 100px;
+    padding-bottom: 125px;
+  }
+
+  .about-section .container {
+    width: 75%;
+  }
+
+  .picture {
+    /* margin-left: 100px; */
+    border: 8px solid rgb(85, 85, 85);
+    width: 36%;
+    float: left;
+  }
+
+  .picture-container {
+    position: relative;
+    top: 20px;
+    left: 18px;
+    overflow: hidden;
+  }
+
+  .content {
+    float: left;
+    width: 48%;
+    margin-left: 20px;
+    /* padding-left: 70px; */
+    /* padding-left: 10px; */
+    padding-right: 10px;
+  }
+
+  .content .points ul {
+    float: left;
+    width: 45%;
+  }
+
+  .content .points li {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .content .text h2 {
+    margin-bottom: 15px;
+  }
+
+  /* end of about section */
+
+  /* services section */
+
+  .services .container {
+    /* width: 75%; */
+    width: 90%;
+    margin: auto;
+  }
+
+  .services .item {
+    width: 25%;
+    float: left;
+    margin: auto;
+  }
+  /* end of services section */
+
+  /* portfolio section */
+  .portfolio .header h2 {
+    font-size: 40px;
+  }
+
+  .portfolio .items {
+    width: 90%;
+  }
+
+  .portfolio .item {
+    width: 30%;
+    float: left;
+    margin: 15px;
+    position: relative;
+  }
+  /* end of portfolio section */
+  /* stats section */
+  .stats .container {
+    width: 85%;
+  }
+  /* end of stats section */
+  /* feedback section */
+  .testimonial .card {
+    width: 60%;
+  }
+  /* end of feedback section */
+
+  /* blog section */
+  .blog .header h2 {
+    font-size: 40px;
+  }
+
+  .blog .item iframe {
+    height: 170px;
+  }
+  /* end of blog section */
+
+  /* contact us section */
+  .contact .input {
+    width: 70%;
+  }
+  /* end of contact us section */
+
+  .footer .icons {
+    width: 18%;
+  }
+
+  .footer .content-footer {
+    width: 40%;
+  }
+}
+
+/* xl devices */
+@media screen and (min-width: 1280px) {
+  .content {
+    float: left;
+    width: 48%;
+    margin-left: 20px;
+    padding-left: 70px;
+    /* padding-left: 10px; */
+    padding-right: 10px;
+  }
+
+  /* services section */
+
+  .services {
+    padding-top: 100px;
+    padding-bottom: 54px;
+  }
+
+  .services .container {
+    width: 75%;
+    margin: auto;
+  }
+
+  .services .item {
+    width: 25%;
+    padding: 40px 15px;
+    float: left;
+    margin: auto;
+  }
+
+  .services .header h2 {
+    font-size: 40px;
+  }
+  /* end of services section */
+
+  /*portfolio section */
+
+  .portfolio .container {
+    padding-top: 100px;
+    padding-bottom: 70px;
+  }
+
+  .portfolio .items {
+    width: 75%;
+  }
+  /* end of portfolio section */
+
+  /* stats section */
+
+  .stats .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    width: 75%;
+  }
+
+  /* end of stats section */
+
+  /* feedback section */
+  .testimonial .card {
+    width: 55%;
+  }
+
+  .testimonial .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  /* end of feedback section */
+
+  /* blog section */
+  .blog .container {
+    padding-top: 100px;
+    padding-bottom: 70px;
+  }
+
+  .blog .items {
+    width: 75%;
+  }
+
+  .blog .item {
+    width: 30%;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .blog .item iframe {
+    height: 190px;
+  }
+  /* end of blog section */
+
+  /* contact us section */
+  .contact .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .contact .input {
+    width: 51%;
+  }
+
+  /* end of contact us section */
+
+  .footer .icons {
+    width: 12%;
+  }
+
+  .footer .content-footer {
+    width: 28%;
+  }
+}
+
+/* 2xl devices */
+@media and (min-width: 1536px) {
+}
