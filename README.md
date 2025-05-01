@@ -7,7 +7,7 @@
   <h2>A Portfolio website to Showcase work</h2>
 </div>
 
-## Live Site: https://delightful-creponne-25ad68.netlify.app/
+## Live Site: https://singular-taiyaki-45109e.netlify.app/
 
 
 
@@ -16,3 +16,9 @@
 👉 **Fully Responsive**
 
 ![Logo](./images/1.png)
+![Logo](./images/2.png)
+![Logo](./images/3.png)
+![Logo](./images/4.png)
+![Logo](./images5.png)
+![Logo](./images/6.png)
+![Logo](./images/7.png)
